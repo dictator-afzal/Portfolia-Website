@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=PT+Serif:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{margin :0;
+  padding : 0;}
+
+.sidebar{
+    background-color: rgb(201, 192, 192);
+font-family: 'Dosis', sans-serif;
+   height: 100vh;
+    width: 400px; /* vh bole to* perocentage*/
+    transition: transform 0.3s ease-in;
+  /* position: absolute; */
+}
+
+.sidebar nav{
+    padding: 72px;
+    position: fixed;
+    
+}
+
+.sidebar nav li {
+    list-style:none;
+    font-weight:bolder;
+    
+    font-size: 33px;
+    padding: 30px  ;
+}
+
+.sidebar nav a{
+    text-decoration: none;
+    color:black;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: 10px;
+
+}
+.main{
+     background-color:rgba(197, 186, 186, 0.165); ;
+     width: 90vw;
+}
+
+.container{
+
+    display :flex;
+} /*for contains entire website contain*/
+
+.infoContainer{
+    margin-top: 50px;
+    padding-top: 20px ;
+    background-color:white;
+    height: 15vw;
+    width: 80 vw;
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content:baseline;
+}
+
+.devPic img{ /*img bhi lagana padega*/
+    width :22vh;
+
+}
+.channelPic img{
+  margin-right: 0px;
+    width: 30vh;
+}
+
+.devInfo{
+     
+    display: ;
+    justify-content:;
+    flex-direction: column;
+}
+
+
+
+.name{
+    font-size: 55px;
+    font-family: 'PT Serif', serif;
+    font-weight: lighter;
+    margin-left: 8px;
+    
+}
+.hello{
+    font-size: 22px;
+    font-style: italic;
+}
+.about{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 60px;
+}
+.aboutmore{
+    margin-left: 40px;
+   font-size: 23px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style : italic;
+}
+.buttons button{
+
+    margin-left: 19px;
+   padding: 9px 10px;
+   border-radius: 22px;
+   color: whitesmoke;
+   background-color:rgb(221, 37, 37);
+   font-weight: bold;
+   font-size: 16px;
+   cursor: pointer;
+   margin-top: 30px;
+}
+
+.buttons button:hover{
+
+    background-color:red;
+    color: black;
+    
+}
+.buttons button a{
+    text-decoration: none;
+    color: white;
+}
+.form-group emailhelp{
+    font-size: 30px;
+}
+
+.contactform h1{
+
+    font-family: 'Dosis', sans-serif;
+    margin-bottom:20px ;
+
+} 
+.contactform {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px; 
+    padding: 5px;
+}
+
+#emailHelp{
+    font-size: small;
+}
+
+.form button{
+    font-size: 200px;
+}
+#form-check{ 
+    flex-direction: row;
+
+
+}
+
+#form-check input{
+    
+    width: 21px;
+    padding: 5px;
+    margin: 5px;
+}
+.butt button:hover{ 
+    background-color:red;
+    color: black;
+
+}
+.butt button{
+
+    margin-left: 10px;
+   padding: 5px 0px ;
+   border-radius: 22px;
+   color: whitesmoke;
+   background-color:rgb(221, 37, 37);
+   font-weight: bold;
+   font-size: 26px;
+   cursor: pointer;
+   margin-top: 30px;
+}
+
+.butt button {
+    text-decoration: none;
+    color: white;
+}
+.about2{
+    font-size: 59px;
+text-align: center;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    margin: 10px;
+}
+.videos {
+    display:flex;
+
+    flex-flow: row wrap;
+    padding: 10px;
+    margin: 20px;
+}
+.v1{
+    margin: 10px;
+    
+
+}
+.v2{
+    margin: 10px;
+
+}.v3{
+    margin: 10px;
+
+}.v4{
+    margin: 10px;
+
+}.v5{
+    margin: 10px;
+
+}.v6{
+    margin: 10px;
+
+}
+
+.v7{
+    margin: 10px;
+
+}
+
+.v8{
+    margin: 10px;
+
+}
+.v9{
+    margin: 10px;
+
+}
+.v10{ margin: 10px;}
+.v11{
+    margin:10px;
+}
+
+/*  Media querry -imp     trnasformation for Responsiveness*/
+/* 
+ @media(max-width:1452px) {
+
+    .devPic{
+        display: none;
+    } */
+/*    *{background-color: #ffffff;}
+} */
+
+.sidebarGo{
+
+        transform: translate(-400px, 0);
+        position: absolute; /* space bhi rhega gayab ka khel hoga*/
+
+}
+
+.icons{
+
+    position: absolute;
+    cursor: pointer;
+    left: 15px;
+    top: 20px;
+}
+
+.cross{
+    margin-left: 272px;
+
+}
